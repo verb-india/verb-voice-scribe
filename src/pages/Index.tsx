@@ -10,7 +10,9 @@ const Index = () => {
       <Navigation />
       <Hero />
       <Features />
-      <Footer />
+      <div className="bg-verb-diagonal-gradient">
+        <Footer />
+      </div>
     </div>
   );
 };

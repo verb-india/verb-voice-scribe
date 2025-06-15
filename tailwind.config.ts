@@ -1,4 +1,3 @@
-
 import type { Config } from "tailwindcss";
 
 export default {
@@ -74,7 +73,9 @@ export default {
 			backgroundImage: {
 				'verb-gradient': 'linear-gradient(135deg, #FF8A65 0%, #FFB74D 100%)',
 				'verb-gradient-light': 'linear-gradient(135deg, #FFF8E1 0%, #F5F5DC 100%)',
-				'verb-gradient-reverse': 'linear-gradient(135deg, #FFB74D 0%, #FF8A65 100%)'
+				'verb-gradient-reverse': 'linear-gradient(135deg, #FFB74D 0%, #FF8A65 100%)',
+				'verb-diagonal-gradient': 'linear-gradient(135deg, #FF8A65 0%, #FFB74D 50%, #F5F5DC 100%)',
+				'verb-diagonal-gradient-reverse': 'linear-gradient(315deg, #FF8A65 0%, #FFB74D 50%, #F5F5DC 100%)'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',

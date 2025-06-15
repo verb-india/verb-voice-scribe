@@ -8,14 +8,14 @@ const Navigation = () => {
   const isActive = (path: string) => location.pathname === path;
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 bg-white/80 backdrop-blur-md border-b border-gray-200">
-      <div className="container mx-auto px-6 py-4">
-        <div className="flex items-center justify-between">
-          <Link to="/" className="text-2xl font-bold bg-verb-gradient bg-clip-text text-transparent">
+    <nav className="fixed top-4 left-1/2 transform -translate-x-1/2 z-50 bg-white/90 backdrop-blur-md rounded-full border border-gray-200 shadow-lg">
+      <div className="px-8 py-3">
+        <div className="flex items-center space-x-8">
+          <Link to="/" className="text-xl font-bold bg-verb-gradient bg-clip-text text-transparent">
             Verb
           </Link>
           
-          <div className="hidden md:flex items-center space-x-8">
+          <div className="flex items-center space-x-6">
             <Link
               to="/"
               className={`text-sm font-medium transition-colors hover:text-verb-orange ${
