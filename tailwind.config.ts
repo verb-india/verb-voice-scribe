@@ -74,14 +74,14 @@ export default {
 				}
 			},
 			backgroundImage: {
-				'verb-gradient': 'linear-gradient(135deg, #FFB74D 0%, #FFCC80 100%)',
-				'verb-gradient-light': 'linear-gradient(135deg, #FFF8E1 0%, #F5F5DC 100%)',
-				'verb-gradient-reverse': 'linear-gradient(135deg, #FFCC80 0%, #FFB74D 100%)',
-				'verb-diagonal-gradient': 'linear-gradient(135deg, #FFF3E0 0%, #FFB74D 30%, #FFCC80 70%, #F5F5DC 100%)',
-				'verb-diagonal-gradient-reverse': 'linear-gradient(315deg, #FFF3E0 0%, #FFB74D 30%, #FFCC80 70%, #F5F5DC 100%)',
-				'verb-subtle-gradient': 'linear-gradient(135deg, #FFFEF7 0%, #FFF8E1 50%, #F5F5DC 100%)',
-				'verb-orange-yellow-gradient': 'linear-gradient(135deg, #FF6B35 0%, #F7931E 25%, #FFD700 50%, #FFA500 75%, #FF8C00 100%)',
-				'verb-orange-yellow-diagonal': 'linear-gradient(45deg, #FF6B35 0%, #F7931E 25%, #FFD700 50%, #FFA500 75%, #FF8C00 100%)'
+				'verb-gradient': 'radial-gradient(ellipse at center, #FFDBCC 0%, #FFF2E6 30%, #FFFFFF 70%)',
+				'verb-gradient-light': 'radial-gradient(ellipse at center, #FFF2E6 0%, #FFFFFF 60%)',
+				'verb-gradient-reverse': 'radial-gradient(ellipse at center, #FFCC99 0%, #FFDBCC 25%, #FFF2E6 50%, #FFFFFF 80%)',
+				'verb-diagonal-gradient': 'radial-gradient(ellipse at center, #FFCC99 0%, #FFDBCC 20%, #FFF2E6 40%, #FFFFFF 70%)',
+				'verb-diagonal-gradient-reverse': 'radial-gradient(ellipse at center, #FFCC99 0%, #FFDBCC 20%, #FFF2E6 40%, #FFFFFF 70%)',
+				'verb-subtle-gradient': 'radial-gradient(ellipse at center, #FFE6D3 0%, #FFF2E6 40%, #FFFFFF 80%)',
+				'verb-orange-yellow-gradient': 'radial-gradient(ellipse at center, #FFCC99 0%, #FFDBCC 15%, #FFF2E6 35%, #FFFFFF 65%)',
+				'verb-orange-yellow-diagonal': 'radial-gradient(ellipse at center, #FFCC99 0%, #FFDBCC 15%, #FFF2E6 35%, #FFFFFF 65%)'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',

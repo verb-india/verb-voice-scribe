@@ -11,8 +11,9 @@ const Navigation = () => {
     <nav className="fixed top-4 left-1/2 transform -translate-x-1/2 z-50 bg-white/90 backdrop-blur-md rounded-full border border-gray-200 shadow-lg">
       <div className="px-8 py-3">
         <div className="flex items-center space-x-8">
-          <Link to="/" className="text-xl font-bold bg-verb-gradient bg-clip-text text-transparent">
-            Verb
+          <Link to="/" className="flex items-center space-x-3">
+            <img src="/logo.png" alt="Verb Logo" className="w-8 h-8" />
+            <span className="text-xl font-bold text-black">Verb</span>
           </Link>
           
           <div className="flex items-center space-x-6">
@@ -50,7 +51,7 @@ const Navigation = () => {
             </Link>
           </div>
           
-          <Button className="bg-verb-gradient hover:bg-verb-gradient-reverse text-white font-medium px-6 py-2 rounded-full transition-all duration-300 transform hover:scale-105">
+          <Button className="bg-black hover:bg-gray-800 text-white font-medium px-6 py-2 rounded-full transition-all duration-300 transform hover:scale-105">
             Download for Mac
           </Button>
         </div>

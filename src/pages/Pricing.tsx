@@ -92,7 +92,7 @@ const Pricing = () => {
               >
                 {plan.popular && (
                   <div className="absolute -top-4 left-1/2 transform -translate-x-1/2">
-                    <span className="bg-verb-gradient text-white px-4 py-2 rounded-full text-sm font-semibold">
+                    <span className="bg-verb-gradient text-black px-4 py-2 rounded-full text-sm font-semibold">
                       Most Popular
                     </span>
                   </div>
@@ -119,7 +119,7 @@ const Pricing = () => {
                 <Button 
                   className={`w-full font-semibold py-3 rounded-full transition-all duration-300 ${
                     plan.popular
-                      ? 'bg-verb-gradient hover:bg-verb-gradient-reverse text-white'
+                      ? 'bg-verb-gradient hover:bg-verb-gradient-reverse text-black'
                       : 'bg-gray-100 hover:bg-verb-gradient-light text-gray-900 hover:text-verb-orange border border-gray-200'
                   }`}
                   onClick={() => {

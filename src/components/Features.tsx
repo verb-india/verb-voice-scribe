@@ -13,7 +13,7 @@ const Features = () => {
             </div>
           </div>
           <div className="space-y-3">
-            {['Valerio', 'Nora', 'EMT', 'Benton', 'Mackey', 'Zoltan', 'Vishal'].map((word, idx) => (
+            {['Valerio', 'Nora', 'EMT', 'Benton'].map((word, idx) => (
               <div key={idx} className="bg-teal-600 text-white px-5 py-3 rounded-full text-sm font-medium">
                 {word}
               </div>
