@@ -63,19 +63,21 @@ export default {
 					ring: 'hsl(var(--sidebar-ring))'
 				},
 				verb: {
-					orange: '#FF8A65',
-					'orange-light': '#FFB74D',
+					orange: '#FFB74D',
+					'orange-light': '#FFCC80',
 					cream: '#FFF8E1',
 					beige: '#F5F5DC',
-					'orange-dark': '#FF5722'
+					'orange-dark': '#FF9800',
+					'orange-very-light': '#FFF3E0'
 				}
 			},
 			backgroundImage: {
-				'verb-gradient': 'linear-gradient(135deg, #FF8A65 0%, #FFB74D 100%)',
+				'verb-gradient': 'linear-gradient(135deg, #FFB74D 0%, #FFCC80 100%)',
 				'verb-gradient-light': 'linear-gradient(135deg, #FFF8E1 0%, #F5F5DC 100%)',
-				'verb-gradient-reverse': 'linear-gradient(135deg, #FFB74D 0%, #FF8A65 100%)',
-				'verb-diagonal-gradient': 'linear-gradient(135deg, #FF8A65 0%, #FFB74D 50%, #F5F5DC 100%)',
-				'verb-diagonal-gradient-reverse': 'linear-gradient(315deg, #FF8A65 0%, #FFB74D 50%, #F5F5DC 100%)'
+				'verb-gradient-reverse': 'linear-gradient(135deg, #FFCC80 0%, #FFB74D 100%)',
+				'verb-diagonal-gradient': 'linear-gradient(135deg, #FFF3E0 0%, #FFB74D 30%, #FFCC80 70%, #F5F5DC 100%)',
+				'verb-diagonal-gradient-reverse': 'linear-gradient(315deg, #FFF3E0 0%, #FFB74D 30%, #FFCC80 70%, #F5F5DC 100%)',
+				'verb-subtle-gradient': 'linear-gradient(135deg, #FFFEF7 0%, #FFF8E1 50%, #F5F5DC 100%)'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
