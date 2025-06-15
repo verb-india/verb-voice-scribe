@@ -68,7 +68,9 @@ export default {
 					cream: '#FFF8E1',
 					beige: '#F5F5DC',
 					'orange-dark': '#FF9800',
-					'orange-very-light': '#FFF3E0'
+					'orange-very-light': '#FFF3E0',
+					'orange-yellow-gradient': 'linear-gradient(135deg, #FF6B35 0%, #F7931E 25%, #FFD700 50%, #FFA500 75%, #FF8C00 100%)',
+					'orange-yellow-diagonal': 'linear-gradient(45deg, #FF6B35 0%, #F7931E 25%, #FFD700 50%, #FFA500 75%, #FF8C00 100%)'
 				}
 			},
 			backgroundImage: {
@@ -77,7 +79,9 @@ export default {
 				'verb-gradient-reverse': 'linear-gradient(135deg, #FFCC80 0%, #FFB74D 100%)',
 				'verb-diagonal-gradient': 'linear-gradient(135deg, #FFF3E0 0%, #FFB74D 30%, #FFCC80 70%, #F5F5DC 100%)',
 				'verb-diagonal-gradient-reverse': 'linear-gradient(315deg, #FFF3E0 0%, #FFB74D 30%, #FFCC80 70%, #F5F5DC 100%)',
-				'verb-subtle-gradient': 'linear-gradient(135deg, #FFFEF7 0%, #FFF8E1 50%, #F5F5DC 100%)'
+				'verb-subtle-gradient': 'linear-gradient(135deg, #FFFEF7 0%, #FFF8E1 50%, #F5F5DC 100%)',
+				'verb-orange-yellow-gradient': 'linear-gradient(135deg, #FF6B35 0%, #F7931E 25%, #FFD700 50%, #FFA500 75%, #FF8C00 100%)',
+				'verb-orange-yellow-diagonal': 'linear-gradient(45deg, #FF6B35 0%, #F7931E 25%, #FFD700 50%, #FFA500 75%, #FF8C00 100%)'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
