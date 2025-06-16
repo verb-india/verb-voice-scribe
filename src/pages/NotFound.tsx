@@ -1,25 +1,31 @@
-import { useLocation } from "react-router-dom";
-import { useEffect } from "react";
+import { Link } from "react-router-dom";
+import Navigation from "@/components/Navigation";
+import Footer from "@/components/Footer";
+import { Button } from "@/components/ui/button";
 
 const NotFound = () => {
-  const location = useLocation();
-
-  useEffect(() => {
-    console.error(
-      "404 Error: User attempted to access non-existent route:",
-      location.pathname
-    );
-  }, [location.pathname]);
-
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4">404</h1>
-        <p className="text-xl text-gray-600 mb-4">Oops! Page not found</p>
-        <a href="/" className="text-blue-500 hover:text-blue-700 underline">
-          Return to Home
-        </a>
+    <div className="min-h-screen bg-gradient-to-br from-black via-black to-[#1a0f00]">
+      <Navigation />
+      <div className="container mx-auto px-4 pt-32 pb-16">
+        <div className="max-w-2xl mx-auto text-center">
+          <h1 className="text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-orange-500 to-yellow-500 mb-6">
+            404
+          </h1>
+          <h2 className="text-3xl font-semibold text-white mb-4">
+            Page Not Found
+          </h2>
+          <p className="text-gray-400 mb-8">
+            The page you're looking for doesn't exist or has been moved.
+          </p>
+          <Link to="/">
+            <Button className="bg-gradient-to-r from-orange-500 to-yellow-500 hover:from-orange-600 hover:to-yellow-600">
+              Return Home
+            </Button>
+          </Link>
+        </div>
       </div>
+      <Footer />
     </div>
   );
 };
