@@ -3,7 +3,7 @@ const Features = () => {
   const features = [
     {
       title: "Personal Dictionary",
-      description: "Flow automatically learns your unique words and adds them to your personal dictionary. Whether it's names, technical terms, or your favorite expressions, Verb remembers everything you say.",
+      description: "VERB automatically learns your unique words and adds them to your personal dictionary. Whether it's names, technical terms, or your favorite expressions, Verb remembers everything you say.",
       visual: (
         <div className="bg-gray-900 rounded-3xl p-8 h-80 flex flex-col justify-between shadow-2xl">
           <div className="flex items-center justify-between mb-6">
@@ -24,7 +24,7 @@ const Features = () => {
     },
     {
       title: "100+ Languages",
-      description: "Flow automatically detects and transcribes in your language, letting you move between them—just like you do. Speak naturally in any language and watch the magic happen.",
+      description: "VERB automatically detects and transcribes in your language, letting you move between them—just like you do. Speak naturally in any language and watch the magic happen.",
       visual: (
         <div className="bg-gray-900 rounded-3xl p-8 h-80 flex items-center justify-center relative overflow-hidden shadow-2xl">
           <div className="text-center">
@@ -41,7 +41,7 @@ const Features = () => {
     },
     {
       title: "Different Tones for Each App",
-      description: "Flow automatically adjusts tone based on the app you're using. Sound like you—not a robot. Professional for emails, casual for messages, and everything in between.",
+      description: "VERB automatically adjusts tone based on the app you're using. Sound like you—not a robot. Professional for emails, casual for messages, and everything in between.",
       visual: (
         <div className="bg-gray-900 rounded-3xl p-8 h-80 flex flex-col justify-center items-center shadow-2xl">
           <div className="bg-gray-800 rounded-xl p-6 mb-6 w-full">
