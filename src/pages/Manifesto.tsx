@@ -1,86 +1,64 @@
-
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 
 const Manifesto = () => {
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen bg-gradient-to-br from-black via-black to-[#1a0f00]">
       <Navigation />
-      
-      <section className="pt-24 pb-20 bg-verb-gradient-light">
-        <div className="container mx-auto px-6">
-          <div className="max-w-4xl mx-auto text-center">
-            <h1 className="text-5xl font-bold mb-6 text-gray-900 animate-fade-in">
-              Our Manifesto
-            </h1>
-            <p className="text-xl text-gray-700 animate-slide-in">
-              The future of human-computer interaction starts with understanding intent, not just words.
-            </p>
+      <div className="container mx-auto px-4 pt-32 pb-16">
+        <div className="max-w-4xl mx-auto">
+          <h1 className="text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-orange-500 to-yellow-500 mb-8">
+            Our Manifesto
+          </h1>
+          
+          <div className="space-y-8">
+            <section className="bg-black/40 backdrop-blur-md border border-orange-500/20 rounded-xl p-8 shadow-[0_0_30px_rgba(255,165,0,0.1)]">
+              <h2 className="text-2xl font-semibold text-white mb-4">Voice is the Future</h2>
+              <p className="text-gray-300 leading-relaxed">
+                We believe that voice is the most natural and powerful way to interact with technology. 
+                For millennia, humans have used speech to communicate, create, and connect. Yet in the 
+                digital age, we've been constrained to keyboards and screens.
+              </p>
+            </section>
+
+            <section className="bg-black/40 backdrop-blur-md border border-orange-500/20 rounded-xl p-8 shadow-[0_0_30px_rgba(255,165,0,0.1)]">
+              <h2 className="text-2xl font-semibold text-white mb-4">Breaking Barriers</h2>
+              <p className="text-gray-300 leading-relaxed">
+                Traditional typing creates barriers - it's slow, causes physical strain, and limits our 
+                creative flow. Voice writing removes these constraints, allowing thoughts to flow 
+                naturally and ideas to be captured effortlessly.
+              </p>
+            </section>
+
+            <section className="bg-black/40 backdrop-blur-md border border-orange-500/20 rounded-xl p-8 shadow-[0_0_30px_rgba(255,165,0,0.1)]">
+              <h2 className="text-2xl font-semibold text-white mb-4">AI-Powered Understanding</h2>
+              <p className="text-gray-300 leading-relaxed">
+                We're harnessing the latest advances in AI to create a voice writing experience that 
+                truly understands you. Our technology adapts to your speaking style, learns your 
+                preferences, and helps you write better.
+              </p>
+            </section>
+
+            <section className="bg-black/40 backdrop-blur-md border border-orange-500/20 rounded-xl p-8 shadow-[0_0_30px_rgba(255,165,0,0.1)]">
+              <h2 className="text-2xl font-semibold text-white mb-4">Privacy First</h2>
+              <p className="text-gray-300 leading-relaxed">
+                Your voice and your words are personal. We're committed to protecting your privacy 
+                with industry-leading security measures and transparent data practices. Your trust 
+                is our top priority.
+              </p>
+            </section>
+
+            <section className="bg-black/40 backdrop-blur-md border border-orange-500/20 rounded-xl p-8 shadow-[0_0_30px_rgba(255,165,0,0.1)]">
+              <h2 className="text-2xl font-semibold text-white mb-4">Join the Revolution</h2>
+              <p className="text-gray-300 leading-relaxed">
+                We're building more than just a product - we're creating a movement towards a 
+                future where technology adapts to humans, not the other way around. Join us in 
+                making voice writing the new standard for digital creation.
+              </p>
+            </section>
           </div>
         </div>
-      </section>
-
-      <section className="py-20 bg-white">
-        <div className="container mx-auto px-6">
-          <div className="max-w-4xl mx-auto space-y-16">
-            
-            <div className="text-center">
-              <h2 className="text-3xl font-bold mb-6 text-verb-orange">The Problem</h2>
-              <p className="text-lg text-gray-700 leading-relaxed">
-                Communication technology has barely evolved in decades. We're still typing on keyboards designed in the 1800s, 
-                struggling with autocorrect that doesn't understand context, and switching between apps that don't talk to each other. 
-                Meanwhile, our thoughts move at the speed of speech, but our tools force us to crawl at the speed of typing.
-              </p>
-            </div>
-
-            <div className="text-center">
-              <h2 className="text-3xl font-bold mb-6 text-verb-orange">The Truth</h2>
-              <p className="text-lg text-gray-700 leading-relaxed">
-                Every human deserves technology that amplifies their natural abilities rather than constraining them. 
-                Your voice carries nuance, emotion, and intent that no keyboard can capture. Your thoughts are unique, 
-                and your tools should adapt to you—not the other way around. Privacy isn't a luxury; it's a fundamental right. 
-                Your words, your ideas, your conversations should never be harvested to train someone else's AI.
-              </p>
-            </div>
-
-            <div className="text-center">
-              <h2 className="text-3xl font-bold mb-6 text-verb-orange">The Solution</h2>
-              <p className="text-lg text-gray-700 leading-relaxed mb-8">
-                Verb represents a new paradigm: technology that understands not just what you say, but how you mean it. 
-                An AI that learns your patterns without compromising your privacy. A writing assistant that adapts to every 
-                context, every app, every conversation. Speed that matches the pace of thought, not the limitations of fingers.
-              </p>
-              <div className="bg-verb-gradient-light p-8 rounded-2xl">
-                <h3 className="text-2xl font-semibold mb-4 text-gray-900">We believe in:</h3>
-                <ul className="space-y-3 text-left max-w-2xl mx-auto">
-                  <li className="flex items-start">
-                    <span className="text-verb-orange mr-3">•</span>
-                    <span className="text-gray-700">Privacy-first technology that keeps your data on your device</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-verb-orange mr-3">•</span>
-                    <span className="text-gray-700">Intelligence that adapts to you, not generic AI for everyone</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-verb-orange mr-3">•</span>
-                    <span className="text-gray-700">Speed that matches human thought and creativity</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-verb-orange mr-3">•</span>
-                    <span className="text-gray-700">Universal access across all languages and platforms</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-verb-orange mr-3">•</span>
-                    <span className="text-gray-700">Context-aware technology that understands intent</span>
-                  </li>
-                </ul>
-              </div>
-            </div>
-
-          </div>
-        </div>
-      </section>
-
+      </div>
       <Footer />
     </div>
   );

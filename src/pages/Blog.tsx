@@ -1,45 +1,30 @@
-
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 
 const Blog = () => {
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen bg-gradient-to-br from-black via-black to-[#1a0f00]">
       <Navigation />
-      
-      <section className="pt-24 pb-20 bg-verb-gradient-light">
-        <div className="container mx-auto px-6">
-          <div className="max-w-4xl mx-auto text-center">
-            <h1 className="text-5xl font-bold mb-6 text-gray-900 animate-fade-in">
-              Blog
-            </h1>
-            <p className="text-xl text-gray-700 animate-slide-in">
-              Insights, updates, and stories from the Verb team
-            </p>
-          </div>
-        </div>
-      </section>
-
-      <section className="py-20 bg-white">
-        <div className="container mx-auto px-6">
-          <div className="max-w-4xl mx-auto text-center">
-            <div className="bg-verb-gradient-light p-12 rounded-2xl">
-              <h2 className="text-3xl font-bold mb-4 text-gray-900">Coming Soon</h2>
-              <p className="text-lg text-gray-700 mb-8">
-                We're working on bringing you the latest insights about the future of speech technology, 
-                productivity tips, and behind-the-scenes stories from our journey.
+      <div className="container mx-auto px-4 pt-32 pb-16">
+        <h1 className="text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-orange-500 to-yellow-500 mb-8">
+          Blog
+        </h1>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          {/* Blog post cards */}
+          {[1, 2, 3, 4, 5, 6].map((post) => (
+            <div key={post} className="bg-black/40 backdrop-blur-md border border-orange-500/20 rounded-xl p-6 shadow-[0_0_30px_rgba(255,165,0,0.1)]">
+              <div className="h-48 bg-gradient-to-br from-orange-500/10 to-yellow-500/10 rounded-lg mb-4"></div>
+              <h2 className="text-xl font-semibold text-white mb-2">Coming Soon</h2>
+              <p className="text-gray-400 mb-4">
+                Stay tuned for exciting content about voice writing, AI, and productivity.
               </p>
-              <p className="text-gray-600">
-                Want to be notified when we publish our first post? 
-                <a href="mailto:contact@verb.com" className="text-verb-orange hover:underline ml-1">
-                  Get in touch
-                </a>
-              </p>
+              <div className="flex items-center text-sm text-gray-500">
+                <span>Coming Soon</span>
+              </div>
             </div>
-          </div>
+          ))}
         </div>
-      </section>
-
+      </div>
       <Footer />
     </div>
   );
